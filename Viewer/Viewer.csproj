@@ -152,11 +152,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Roy-T.AStar\Roy-T.AStar.csproj">
-      <Project>{b9c572ad-526e-48c0-9b64-582cd83515eb}</Project>
-      <Name>Roy-T.AStar</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
